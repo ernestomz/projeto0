@@ -1,0 +1,133 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+header{
+    background-image: url(imagens/bg-4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+}
+
+.menu {
+    margin: auto;
+}
+
+.menu ul{
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    background-color: #bbb9b9;
+    border: #ffffff solid 3px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    text-align: right;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.menu a:hover {
+    transition: all 0.3s;
+    color: #000000;
+    font-size: 20px;
+    text-shadow: 7px 7px 7px #ffff00;
+}
+
+header h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+header p {
+    text-align: center;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.center {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: #ffffff solid 3px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main section {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    width: 85%;
+}
+
+h2 {
+    background-color: #dbd7d7;
+    text-align: left;
+    padding: 5px 5px;
+    display: inline-block;
+    width: 96%;
+    border-bottom: #000000 solid 3px;
+    letter-spacing: 1px;
+}
+
+section p {
+    text-align: left;
+    padding: 0px 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+section a {
+    background-color: #ccc;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 6%;
+    padding: 0px 10px;
+    border-radius: 5px;
+    color: #0000ff;
+}
+
+footer p {
+    background-color: #949393;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
